@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" data-theme="b">
+            <div data-role="header" align="center">
+                <img src="img/banner.jpg">
+            </div>
+            <div data-role="main" class="ui-content">
+                <div data-role="tabs" id="tabs">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#list" data-ajax="false">List View 1</a></li>
+                            <li><a href="#filter" data-ajax="false">List View 2</a></li>
+                            <li><a href="#list-filter" data-ajax="false">List View 3</a></li>
+                        </ul>
+                    </div>
+                    <div id="list" class="ui-body-d ui-content">
+                        <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
+
+                            <li><a href="#">Accounting</a></li>
+                            <li><a href="#">Accounting and Information Systems (Department of Accounting and Information Systems)</a></li>
+                            <li><a href="#">Ancient History (College of Arts)</a></li>
+                            <li><a href="#">Antarctic Studies</a></li>
+                            <li><a href="#">Anthropology</a></li>
+                            <li><a href="#">Applied Psychology (Department of Psychology)</a></li>
+                            <li><a href="#">Biochemistry</a></li>
+                            <li><a href="#">Bioengineering (Centre for Bioengineering)</a></li>
+                            <li><a href="#">Biological Sciences</a></li>
+                            <li><a href="#">Biosecurity</a></li>
+                            <li><a href="#">Biotechnology</a></li>        
+                            <li><a href="#">Cellular and Molecular Biology (School of Biological Sciences)</a></li>
+                            <li><a href="#">Chemical and Process Engineering</a></li>
+                            <li><a href="#">Chemistry</a></li>
+                            <li><a href="#">Child and Family Psychology (School of Health Sciences)</a></li>
+                            <li><a href="#">Chinese</a></li>
+                            <li><a href="#">Cinema Studies</a></li>
+                            <li><a href="#">Civil Engineering</a></li>
+                            <li><a href="#">Classical Studies (College of Arts)</a></li>
+                            <li><a href="#">Classics</a></li>
+                            <li><a href="#">Clinical Psychology (Department of Psychology)</a></li>
+                            <li><a href="#">Clinical Teaching (School of Health Sciences)</a></li>
+                        </ul>
+                    </div>
+                    <div id="filter">
+                        <div data-role="collapsibleset" data-theme="b" data-inset="false">
+                            <div data-role="collapsible">
+                                <h2>A</h2>
+                                <ul data-role="listview">
+                                    <li><a href="#">Accounting</a></li>
+                                    <li><a href="#">Accounting and Information Systems (Department of Accounting and Information Systems)</a></li>
+                                    <li><a href="#">Ancient History (College of Arts)</a></li>
+                                    <li><a href="#">Antarctic Studies</a></li>
+                                    <li><a href="#">Anthropology</a></li>
+                                    <li><a href="#">Applied Psychology (Department of Psychology)</a></li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>B</h2>
+                                <ul data-role="listview">
+                                    <li><a href="#">Biochemistry</a></li>
+                                    <li><a href="#">Bioengineering (Centre for Bioengineering)</a></li>
+                                    <li><a href="#">Biological Sciences</a></li>
+                                    <li><a href="#">Biosecurity</a></li>
+                                    <li><a href="#">Biotechnology</a></li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>C</h2>
+                                <ul data-role="listview">
+                                    <li><a href="#">Cellular and Molecular Biology (School of Biological Sciences)</a></li>
+                                    <li><a href="#">Chemical and Process Engineering</a></li>
+                                    <li><a href="#">Chemistry</a></li>
+                                    <li><a href="#">Child and Family Psychology (School of Health Sciences)</a></li>
+                                    <li><a href="#">Chinese</a></li>
+                                    <li><a href="#">Cinema Studies</a></li>
+                                    <li><a href="#">Civil Engineering</a></li>
+                                    <li><a href="#">Classical Studies (College of Arts)</a></li>
+                                    <li><a href="#">Classics</a></li>
+                                    <li><a href="#">Clinical Psychology (Department of Psychology)</a></li>
+                                    <li><a href="#">Clinical Teaching (School of Health Sciences)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="list-filter">
+                        <div data-role="collapsibleset" data-theme="b" data-inset="false">
+                            <div data-role="collapsible">
+                                <h2>A</h2>
+                                <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
+                                    <li><a href="#">Accounting</a></li>
+                                    <li><a href="#">Accounting and Information Systems (Department of Accounting and Information Systems)</a></li>
+                                    <li><a href="#">Ancient History (College of Arts)</a></li>
+                                    <li><a href="#">Antarctic Studies</a></li>
+                                    <li><a href="#">Anthropology</a></li>
+                                    <li><a href="#">Applied Psychology (Department of Psychology)</a></li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>B</h2>
+                                <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
+                                    <li><a href="#">Biochemistry</a></li>
+                                    <li><a href="#">Bioengineering (Centre for Bioengineering)</a></li>
+                                    <li><a href="#">Biological Sciences</a></li>
+                                    <li><a href="#">Biosecurity</a></li>
+                                    <li><a href="#">Biotechnology</a></li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>C</h2>
+                                <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="true">
+                                    <li><a href="#">Cellular and Molecular Biology (School of Biological Sciences)</a></li>
+                                    <li><a href="#">Chemical and Process Engineering</a></li>
+                                    <li><a href="#">Chemistry</a></li>
+                                    <li><a href="#">Child and Family Psychology (School of Health Sciences)</a></li>
+                                    <li><a href="#">Chinese</a></li>
+                                    <li><a href="#">Cinema Studies</a></li>
+                                    <li><a href="#">Civil Engineering</a></li>
+                                    <li><a href="#">Classical Studies (College of Arts)</a></li>
+                                    <li><a href="#">Classics</a></li>
+                                    <li><a href="#">Clinical Psychology (Department of Psychology)</a></li>
+                                    <li><a href="#">Clinical Teaching (School of Health Sciences)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <a href="#" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-right ui-btn-icon-right ui-icon-arrow-l" data-rel="back">Back</a>
+            </div>
+        </div>
+    </body>
+</html>
